@@ -58,6 +58,22 @@ nav a:hover{
     background:linear-gradient(135deg,#2563EB,#1E40AF,#1E3A8A);
     color:white;
 }
+.hero::after{
+    content:"";
+    position:absolute;
+    width:600px;
+    height:600px;
+    background:radial-gradient(circle, rgba(255,255,255,0.15) 0%, transparent 70%);
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index:0;
+}
+
+.hero-content{
+    position:relative;
+    z-index:1;
+}
 
 .hero h1{
     font-size:50px;
@@ -162,17 +178,19 @@ nav a:hover{
 }
 
 .card{
-    background:#0F172A;
+    background: rgba(15, 23, 42, 0.6);
+    backdrop-filter: blur(15px);
     padding:40px 30px;
     border-radius:20px;
     width:300px;
-    border:1px solid rgba(255,255,255,0.05);
-    transition:0.3s ease;
+    border:1px solid rgba(255,255,255,0.08);
+    transition:all 0.4s ease;
 }
 
 .card:hover{
     transform:translateY(-12px);
     border:1px solid #2563EB;
+    box-shadow:0 20px 40px rgba(37,99,235,0.25);
 }
 
 /* ================= MÉTRICAS ================= */
@@ -308,4 +326,20 @@ footer {
         font-size:40px;
     }
 
+    @keyframes fadeUp {
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
 }
+
+.section{
+    animation:fadeUp 1s ease forwards;
+}
+
+}
+
