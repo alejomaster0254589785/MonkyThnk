@@ -82,8 +82,17 @@ nav a:hover{
     flex-wrap:wrap;
 }
 
-.btn-primary,
-.btn-secondary{
+/* ================= BOTONES HERO ================= */
+
+.btn-primary{
+    background:white;
+    color:#2563EB;
+    padding:14px 32px;
+    border-radius:30px;
+    font-weight:600;
+    text-decoration:none;
+    transition:0.3s;
+    display:inline-block;
     min-width:200px;
     text-align:center;
 }
@@ -100,6 +109,9 @@ nav a:hover{
     font-weight:600;
     text-decoration:none;
     transition:0.3s;
+    display:inline-block;
+    min-width:200px;
+    text-align:center;
 }
 
 .btn-secondary:hover{
@@ -216,6 +228,7 @@ nav a:hover{
     text-decoration:none;
     font-weight:600;
     transition:0.3s;
+    display:inline-block;
 }
 
 .btn:hover{
@@ -228,7 +241,7 @@ nav a:hover{
   background: linear-gradient(135deg, #0b1f3a, #0f2f5c);
   padding: 140px 20px;
   text-align: center;
-  margin-top: 100px;   /* 👈 ESTA LÍNEA LO SEPARA */
+  margin-top: 120px;
 }
 
 .cta-container h2 {
@@ -251,6 +264,7 @@ nav a:hover{
   text-decoration: none;
   font-weight: 600;
   transition: all 0.3s ease;
+  display:inline-block;
 }
 
 .btn-cta:hover {
@@ -268,7 +282,6 @@ footer {
   color: #94a3b8;
   font-size: 0.9rem;
   letter-spacing: 0.5px;
-     margin-top: 0;
 }
 
 /* ================= RESPONSIVE ================= */
@@ -296,4 +309,3 @@ footer {
     }
 
 }
-
