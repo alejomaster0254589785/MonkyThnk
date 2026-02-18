@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MonkyThink | Innovación Empresarial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">MonkyThink</div>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+<section id="inicio" class="hero">
+    <h1>Pensamiento Estratégico para Empresas Inteligentes</h1>
+    <p>Transformamos ideas en soluciones tecnológicas de alto impacto.</p>
+    <a href="#contacto" class="btn">Contáctanos</a>
+</section>
+
+<section id="servicios" class="servicios">
+    <h2>Servicios</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Consultoría Tecnológica</h3>
+            <p>Optimización de procesos y transformación digital.</p>
+        </div>
+        <div class="card">
+            <h3>Automatización</h3>
+            <p>Implementación de soluciones inteligentes y RPA.</p>
+        </div>
+        <div class="card">
+            <h3>Desarrollo Web</h3>
+            <p>Plataformas modernas, rápidas y escalables.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+    <p>Hablemos sobre cómo potenciar tu empresa.</p>
+    <a href="mailto:contacto@monkythink.com" class="btn">Enviar Correo</a>
+</section>
+
+<footer>
+    <p>© 2026 MonkyThink. Todos los derechos reservados.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
