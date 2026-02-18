@@ -14,7 +14,23 @@ body{
     color:#E2E8F0;
 }
 
+/* ================= LOGO ================= */
+
+.logo img{
+    height:45px;
+    width:auto;
+    object-fit:contain;
+}
+.logo{
+    display:flex;
+    align-items:center;
+}
+
+
+
 /* ================= HEADER ================= */
+
+
 
 header{
     display:flex;
@@ -342,4 +358,5 @@ footer {
 }
 
 }
+
 
