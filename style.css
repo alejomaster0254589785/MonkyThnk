@@ -8,34 +8,32 @@
 
 body{
    padding-top: 80px;
-    background:#ffffff;
-    color:#1E293B;
+background:#0B1120;
+    color:#E2E8F0;
 }
 
 header{
-    height:80px;
-
     display:flex;
     justify-content:space-between;
     align-items:center;
     padding:20px 80px;
-    background:#ffffff;
+    background:rgba(15,23,42,0.8);
+    backdrop-filter: blur(10px);
     position:fixed;
     width:100%;
-    box-shadow:0 2px 10px rgba(0,0,0,0.05);
     z-index:1000;
 }
 
 .logo{
     font-weight:700;
-    font-size:20px;
+    font-size:22px;
     color:#2563EB;
 }
 
 nav a{
     margin-left:25px;
     text-decoration:none;
-    color:#1E293B;
+    color:#E2E8F0;
     font-weight:500;
 }
 
@@ -91,7 +89,7 @@ nav a:hover{
 }
 
 .section.light{
-    background:#F1F5F9;
+   background:#0F172A;
 }
 
 
@@ -110,19 +108,18 @@ nav a:hover{
 }
 
 .card{
-    background:white;
+    background:#0F172A;
     padding:40px 30px;
-    border-radius:18px;
+    border-radius:20px;
     width:300px;
-    box-shadow:0 15px 40px rgba(37,99,235,0.1);
+    border:1px solid rgba(255,255,255,0.05);
     transition:0.3s ease;
 }
 
 .card:hover{
-    transform:translateY(-10px);
-    box-shadow:0 20px 50px rgba(37,99,235,0.2);
+    transform:translateY(-12px);
+    border:1px solid #2563EB;
 }
-
 
 
 footer{
@@ -154,8 +151,11 @@ footer{
 }
 
 .metric h3{
-    font-size:40px;
-    color:#2563EB;
+    font-size:60px;
+    font-weight:700;
+    background:linear-gradient(90deg,#2563EB,#60A5FA);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
 }
 
 .metric p{
@@ -222,6 +222,7 @@ footer{
     background:white;
     color:#2563EB;
 }
+
 
 
 
