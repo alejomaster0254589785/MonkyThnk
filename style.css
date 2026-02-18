@@ -265,6 +265,49 @@ footer{
     margin-bottom:30px;
 }
 
+/* CTA FINAL */
+.cta-final {
+  background: linear-gradient(135deg, #0b1f3a, #0f2f5c);
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.cta-container h2 {
+  color: #3b82f6;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.cta-container p {
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+}
+
+.btn-cta {
+  background: #3b82f6;
+  color: white;
+  padding: 14px 35px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.btn-cta:hover {
+  background: #2563eb;
+  transform: translateY(-3px);
+}
+
+/* FOOTER */
+footer {
+  background: #07142a;
+  padding: 25px;
+  text-align: center;
+  color: #aab6d6;
+  font-size: 0.9rem;
+}
+
 
 
 
