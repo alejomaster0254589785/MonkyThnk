@@ -222,6 +222,49 @@ footer{
     background:white;
     color:#2563EB;
 }
+.highlight-text{
+    max-width:800px;
+    margin:30px auto;
+    font-size:20px;
+    line-height:1.7;
+    color:#CBD5E1;
+}
+
+.steps{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    margin-top:60px;
+    flex-wrap:wrap;
+}
+
+.step h3{
+    font-size:50px;
+    color:#2563EB;
+}
+
+.step p{
+    margin-top:10px;
+    font-weight:500;
+}
+
+.cta{
+    padding:120px 20px;
+    text-align:center;
+    background:linear-gradient(135deg,#2563EB,#1E40AF);
+    color:white;
+}
+
+.cta h2{
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.cta p{
+    font-size:18px;
+    margin-bottom:30px;
+}
+
 
 
 
